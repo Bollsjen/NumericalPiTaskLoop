@@ -47,7 +47,7 @@ namespace NumericalPi
 
             //insideUnitCircle = inside1 + inside2 + inside3 + inside4 + inside5 + inside6 + inside7 + inside8 + inside9 + inside10 + inside11 + inside12;
 
-            List<int> insides = new List<int>();
+            //List<int> insides = new List<int>();
             List<Task<int>> tasks = new List<Task<int>>();
             int tasksCount = threads;
 
