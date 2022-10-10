@@ -50,7 +50,6 @@ namespace NumericalPi
             List<int> insides = new List<int>();
             List<Task<int>> tasks = new List<Task<int>>();
             int tasksCount = threads;
-            int result = 0;
 
             for(int i = 0; i < tasksCount; i++)
             {
